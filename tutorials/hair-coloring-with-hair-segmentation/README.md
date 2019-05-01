@@ -1,5 +1,5 @@
-# A Lightweight App for Live Video
+# Hair Segmentation
 
-Use our lightweight, camera app to get started running prediction on a live video stream using machine learning models.
+In this example, we use the on-device, [Image Segmentation API](https://docs.fritz.ai/develop/vision/image-segmentation/android.html) in order change the color of the user's hair.
 
-In this example, we use the on-device, [Style Transfer API](https://docs.fritz.ai/develop/vision/style-transfer/android.html) in order to apply a style to each frame of a video; however, you can follow the directions for any of the [Vision APIs](https://docs.fritz.ai/develop/vision/index.html) or add your own [Custom Models](https://docs.fritz.ai/develop/custom-models/index.html).
+To get an idea of how to use Hair Segmentation in your app, take a look at [MainActivity.java](https://github.com/fritzlabs/fritz-android-tutorials/blob/master/tutorials/hair-coloring-with-hair-segmentation/app/src/main/java/ai/fritz/haircoloring/MainActivity.java).
