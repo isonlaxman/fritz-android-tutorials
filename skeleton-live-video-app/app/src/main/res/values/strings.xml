@@ -1,5 +1,4 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">Fritz Camera Template</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
 </resources>
