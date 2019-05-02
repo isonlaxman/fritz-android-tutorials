@@ -7,7 +7,7 @@ Fritz is the machine learning platform for iOS and Android developers. This is o
 
 **Vision API: Prebuilt models that you can simply drop into your apps:**
 
-- [Image Segmentation](https://www.fritz.ai/features/image-segmentation.html): Create pixel level masks of different objects in a scene. Currently we provide 4 models for different scenes: People, Outdoor, Hair, and Living Room.
+- [Image Segmentation](https://www.fritz.ai/features/image-segmentation.html): Create pixel level masks of different objects in a scene.
 - [Image Labeling](https://www.fritz.ai/features/image-labeling.html): Classify different objects in an video or image.
 - [Pose Estimation](https://www.fritz.ai/features/pose-estimation.html): Identify and track a person's body position.
 - [Object Detection](https://www.fritz.ai/features/object-detection.html): Detect multiple objects and track their location.
