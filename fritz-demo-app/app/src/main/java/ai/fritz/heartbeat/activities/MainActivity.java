@@ -71,6 +71,16 @@ public class MainActivity extends AppCompatActivity {
         // Add different demo items here
         List<DemoItem> demoItems = new ArrayList<>();
         demoItems.add(new DemoItem(
+                getString(R.string.fritz_vision_sky),
+                getString(R.string.fritz_vision_sky_description),
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        logger.info("FRITZ VISION LIVE VIDEO");
+                        Navigation.goToSkySegActivity(v.getContext());
+                    }
+                }));
+        demoItems.add(new DemoItem(
                 getString(R.string.fritz_vision_title),
                 getString(R.string.fritz_vision_description_live_video),
                 new View.OnClickListener() {
