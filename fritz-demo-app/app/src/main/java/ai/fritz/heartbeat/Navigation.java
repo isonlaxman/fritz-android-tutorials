@@ -10,6 +10,7 @@ import ai.fritz.heartbeat.activities.vision.ImageLabelingActivity;
 import ai.fritz.heartbeat.activities.vision.ImageSegmentationActivity;
 import ai.fritz.heartbeat.activities.vision.ObjectDetectionActivity;
 import ai.fritz.heartbeat.activities.vision.PoseEstimationActivity;
+import ai.fritz.heartbeat.activities.vision.SkySegmentationActivity;
 import ai.fritz.heartbeat.activities.vision.StyleTransferActivity;
 
 /**
@@ -30,6 +31,11 @@ public class Navigation {
     public static void goToLabelingActivity(Context context) {
         Intent labelActivity = new Intent(context, ImageLabelingActivity.class);
         context.startActivity(labelActivity);
+    }
+
+    public static void goToSkySegActivity(Context context) {
+        Intent skyActivity = new Intent(context, SkySegmentationActivity.class);
+        context.startActivity(skyActivity);
     }
 
     public static void goToStyleTransfer(Context context) {

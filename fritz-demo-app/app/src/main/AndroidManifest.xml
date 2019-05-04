@@ -43,6 +43,10 @@
             android:parentActivityName="ai.fritz.heartbeat.activities.MainActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="ai.fritz.heartbeat.activities.vision.SkySegmentationActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="ai.fritz.heartbeat.activities.MainActivity" />
+        <activity
             android:name="ai.fritz.heartbeat.activities.vision.ObjectDetectionActivity"
             android:parentActivityName="ai.fritz.heartbeat.activities.MainActivity"
             android:screenOrientation="portrait" />

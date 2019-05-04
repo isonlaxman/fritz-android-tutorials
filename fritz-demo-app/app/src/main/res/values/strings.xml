@@ -3,6 +3,9 @@
     <!-- In the MainActivity -->
     <string name="demo_title">Heartbeat</string>
 
+    <string name="fritz_vision_sky">Sky Segmentation</string>
+    <string name="fritz_vision_sky_description">Coding challenge</string>
+
     <string name="fritz_vision_style_transfer">Style Transfer</string>
     <string name="fritz_vision_style_transfer_description">Run style transfer on live video feed.</string>
 
